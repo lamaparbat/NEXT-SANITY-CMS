@@ -1,5 +1,5 @@
 
-const projectSchema = {
+const ProjectSchema = {
     name: 'project',
     title: 'Projects',
     type: 'document',
@@ -37,9 +37,9 @@ const projectSchema = {
             name: 'content',
             title: 'Content',
             type: 'array',
-            of: [{ type: 'block' }]
+            of: [{ type: 'block' }],
         }
     ]
 }
 
-export default projectSchema;
+export default ProjectSchema;
